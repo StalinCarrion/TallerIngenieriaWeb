@@ -1,0 +1,10 @@
+# Ocultar el directorio de archivos
+# IndexIgnore*
+
+# Archivo Principal
+DirectoryIndex principal.html
+
+# Reemplazar .php por .utpl
+AddType application/x-httpd-php .utpl
+
+ErrorDocument 404 /errores/error404.html
